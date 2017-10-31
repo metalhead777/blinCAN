@@ -38,11 +38,14 @@ A 24 channel LED driver module with CAN bus interface and Arduino-style microcon
 
 
 ## Currently known bugs and issues
-
+- Reset-button needs to be pressed during microcontroller flashing
 
 
 ## Planned future changes and improvements
-
+- Increase number of hardware address bits
+- Change address selection from pin headers to DIP switch
+- Change LED output voltage to board input voltage instead of fix 5 V
+- Add polyfuse for input overcurrent protection
 
 
 ## Open source hardware and software used in this project
