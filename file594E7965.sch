@@ -1,0 +1,368 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:blinCAN
+LIBS:blinCAN-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 6
+Title "blinCAN CAN Controller and Driver"
+Date "2017-11-01"
+Rev "0.1"
+Comp "https://github.com/metalhead777/blinCAN"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 6350 1900 0    60   Input ~ 0
+VDD_CAN
+$Comp
+L C_Small C304
+U 1 1 594E97C6
+P 6450 2050
+F 0 "C304" H 6460 2120 50  0000 L CNN
+F 1 "100N" H 6460 1970 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6450 2050 50  0001 C CNN
+F 3 "" H 6450 2050 50  0000 C CNN
+	1    6450 2050
+	1    0    0    -1  
+$EndComp
+Text HLabel 6350 2250 0    60   UnSpc ~ 0
+GND_CAN
+$Comp
+L R_Small R301
+U 1 1 594E9D18
+P 6650 2950
+F 0 "R301" H 6680 2970 50  0000 L CNN
+F 1 "4k7" H 6680 2910 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6650 2950 50  0001 C CNN
+F 3 "" H 6650 2950 50  0000 C CNN
+	1    6650 2950
+	1    0    0    -1  
+$EndComp
+Text HLabel 6350 3100 0    60   UnSpc ~ 0
+GND_CAN
+$Comp
+L Crystal_Small Y301
+U 1 1 594EA380
+P 2100 1800
+F 0 "Y301" H 2100 1900 50  0000 C CNN
+F 1 "16 MHz" H 2100 1700 50  0000 C CNN
+F 2 "Crystals:Crystal_HC49-U_Vertical" H 2100 1800 50  0001 C CNN
+F 3 "" H 2100 1800 50  0000 C CNN
+	1    2100 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C301
+U 1 1 594EA5C4
+P 1750 1650
+F 0 "C301" H 1760 1720 50  0000 L CNN
+F 1 "22P" H 1760 1570 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1750 1650 50  0001 C CNN
+F 3 "" H 1750 1650 50  0000 C CNN
+	1    1750 1650
+	0    1    -1   0   
+$EndComp
+$Comp
+L C_Small C302
+U 1 1 594EA6DC
+P 1750 1950
+F 0 "C302" H 1760 2020 50  0000 L CNN
+F 1 "22P" H 1760 1870 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1750 1950 50  0001 C CNN
+F 3 "" H 1750 1950 50  0000 C CNN
+	1    1750 1950
+	0    1    -1   0   
+$EndComp
+Text HLabel 1350 1800 0    60   UnSpc ~ 0
+GND_CAN
+$Comp
+L R_Small R302
+U 1 1 594EAFF7
+P 8350 2950
+F 0 "R302" H 8380 2970 50  0000 L CNN
+F 1 "100" H 8380 2910 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 8350 2950 50  0001 C CNN
+F 3 "" H 8350 2950 50  0000 C CNN
+	1    8350 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R303
+U 1 1 594EB07D
+P 8850 2950
+F 0 "R303" H 8880 2970 50  0000 L CNN
+F 1 "100" H 8880 2910 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 8850 2950 50  0001 C CNN
+F 3 "" H 8850 2950 50  0000 C CNN
+	1    8850 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C305
+U 1 1 594EB0AA
+P 8350 3300
+F 0 "C305" H 8360 3370 50  0000 L CNN
+F 1 "560p" H 8360 3220 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8350 3300 50  0001 C CNN
+F 3 "" H 8350 3300 50  0000 C CNN
+	1    8350 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C306
+U 1 1 594EB149
+P 8850 3300
+F 0 "C306" H 8860 3370 50  0000 L CNN
+F 1 "560p" H 8860 3220 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8850 3300 50  0001 C CNN
+F 3 "" H 8850 3300 50  0000 C CNN
+	1    8850 3300
+	1    0    0    -1  
+$EndComp
+Text HLabel 10350 3700 2    60   UnSpc ~ 0
+GND_CAN
+$Comp
+L D_TVS D301
+U 1 1 594ED14A
+P 9400 3100
+F 0 "D301" H 9400 3250 50  0000 C CNN
+F 1 "P6SMB 27A SMD" H 9400 2950 50  0000 C CNN
+F 2 "Diodes_SMD:D_SMB_Handsoldering" H 9400 3100 50  0001 C CNN
+F 3 "" H 9400 3100 50  0000 C CNN
+	1    9400 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L D_TVS D302
+U 1 1 594ED395
+P 9900 3100
+F 0 "D302" H 9900 3250 50  0000 C CNN
+F 1 "P6SMB 27A SMD" H 9900 2950 50  0000 C CNN
+F 2 "Diodes_SMD:D_SMB_Handsoldering" H 9900 3100 50  0001 C CNN
+F 3 "" H 9900 3100 50  0000 C CNN
+	1    9900 3100
+	0    1    1    0   
+$EndComp
+Text HLabel 4500 2750 2    60   Output ~ 0
+/CAN_INT
+Text HLabel 1350 2600 0    60   Input ~ 0
+/Reset_CAN
+Text HLabel 1350 2400 0    60   BiDi ~ 0
+MISO_CAN
+Text HLabel 1350 2300 0    60   BiDi ~ 0
+MOSI_CAN
+Text HLabel 1350 2200 0    60   BiDi ~ 0
+SCK_CAN
+Text HLabel 1350 2100 0    60   BiDi ~ 0
+/CS_CAN
+$Comp
+L C_Small C303
+U 1 1 594F4231
+P 4400 1850
+F 0 "C303" H 4410 1920 50  0000 L CNN
+F 1 "100N" H 4410 1770 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4400 1850 50  0001 C CNN
+F 3 "" H 4400 1850 50  0000 C CNN
+	1    4400 1850
+	1    0    0    -1  
+$EndComp
+Text HLabel 4500 2100 2    60   UnSpc ~ 0
+GND_CAN
+Text HLabel 4500 1600 2    60   Input ~ 0
+VDD_CAN
+Wire Wire Line
+	6350 1900 7450 1900
+Wire Wire Line
+	7450 1900 7450 2200
+Wire Wire Line
+	6350 2250 6450 2250
+Wire Wire Line
+	6450 2250 6450 2150
+Wire Wire Line
+	6450 1950 6450 1900
+Connection ~ 6450 1900
+Wire Wire Line
+	6350 3100 7450 3100
+Wire Wire Line
+	6650 3100 6650 3050
+Wire Wire Line
+	6950 2800 6650 2800
+Wire Wire Line
+	6650 2800 6650 2850
+Wire Wire Line
+	7450 3100 7450 3000
+Connection ~ 6650 3100
+Wire Wire Line
+	1650 1650 1550 1650
+Wire Wire Line
+	1550 1650 1550 1950
+Wire Wire Line
+	1350 1800 1550 1800
+Wire Wire Line
+	1550 1950 1650 1950
+Connection ~ 1550 1800
+Wire Wire Line
+	1850 1650 2350 1650
+Wire Wire Line
+	2100 1650 2100 1700
+Wire Wire Line
+	1850 1950 2350 1950
+Wire Wire Line
+	2100 1950 2100 1900
+Wire Wire Line
+	8350 3400 8350 3700
+Wire Wire Line
+	8850 3400 8850 3700
+Wire Wire Line
+	8350 3050 8350 3200
+Wire Wire Line
+	8850 3050 8850 3200
+Wire Wire Line
+	8350 3700 10350 3700
+Wire Wire Line
+	7950 2700 10350 2700
+Wire Wire Line
+	8350 2700 8350 2850
+Wire Wire Line
+	7950 2500 10350 2500
+Wire Wire Line
+	8850 2500 8850 2850
+Connection ~ 8850 2500
+Connection ~ 8350 2700
+Wire Wire Line
+	9400 2700 9400 2950
+Connection ~ 9400 2700
+Wire Wire Line
+	9900 2500 9900 2950
+Connection ~ 9900 2500
+Wire Wire Line
+	9400 3250 9400 3700
+Connection ~ 9400 3700
+Wire Wire Line
+	9900 3250 9900 3700
+Connection ~ 9900 3700
+Connection ~ 8850 3700
+Wire Wire Line
+	4400 1600 4400 1750
+Wire Wire Line
+	4400 2100 4400 1950
+Wire Wire Line
+	4100 1600 4500 1600
+Wire Wire Line
+	4050 1750 4100 1750
+Wire Wire Line
+	4100 1750 4100 1600
+Connection ~ 4400 1600
+Wire Wire Line
+	4100 2100 4500 2100
+Wire Wire Line
+	4100 2100 4100 1950
+Wire Wire Line
+	4100 1950 4050 1950
+Connection ~ 4400 2100
+Wire Wire Line
+	1350 2100 2500 2100
+Wire Wire Line
+	1350 2200 2500 2200
+Wire Wire Line
+	1350 2300 2500 2300
+Wire Wire Line
+	1350 2400 2500 2400
+Wire Wire Line
+	1350 2600 2500 2600
+Wire Wire Line
+	2500 1750 2350 1750
+Wire Wire Line
+	2350 1750 2350 1650
+Connection ~ 2100 1650
+Wire Wire Line
+	2500 1850 2350 1850
+Wire Wire Line
+	2350 1850 2350 1950
+Connection ~ 2100 1950
+Wire Wire Line
+	4500 2750 4050 2750
+Text Notes 8900 2300 0    60   ~ 0
+Input protection
+Text HLabel 10350 2500 2    60   BiDi ~ 0
+CAN_+
+Text HLabel 10350 2700 2    60   BiDi ~ 0
+CAN_-
+Text Notes 10750 2550 0    60   ~ 0
+CANH
+Text Notes 10750 2750 0    60   ~ 0
+CANL
+NoConn ~ 4050 2250
+NoConn ~ 2500 3150
+NoConn ~ 2500 3050
+NoConn ~ 2500 2950
+NoConn ~ 4050 2950
+NoConn ~ 4050 3050
+NoConn ~ 6950 2700
+$Comp
+L MCP2551-I/SN U302
+U 1 1 59F9E179
+P 7450 2600
+F 0 "U302" H 7050 2950 50  0000 L CNN
+F 1 "MCP2551-I/SN" H 7550 2950 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 7450 2100 50  0001 C CIN
+F 3 "" H 7450 2600 50  0001 C CNN
+	1    7450 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCP2515-I/SO U301
+U 1 1 59FA627C
+P 2800 2100
+F 0 "U301" H 2750 2600 60  0000 C CNN
+F 1 "MCP2515-I/SO" H 3050 900 60  0000 C CNN
+F 2 "Housings_SOIC:SOIC-18W_7.5x11.6mm_Pitch1.27mm" H 2800 2100 60  0001 C CNN
+F 3 "" H 2800 2100 60  0000 C CNN
+	1    2800 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 2400 5500 2400
+Wire Wire Line
+	5500 2400 5500 2500
+Wire Wire Line
+	5500 2500 6950 2500
+Wire Wire Line
+	4050 2550 5750 2550
+Wire Wire Line
+	5750 2550 5750 2400
+Wire Wire Line
+	5750 2400 6950 2400
+$EndSCHEMATC

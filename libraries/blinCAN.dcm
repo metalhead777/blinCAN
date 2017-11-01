@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FT232R
+D USB to serial UART interface
+$ENDCMP
+#
+$CMP LM35DZ
+D Precision Centigrade Temperature Sensor
+$ENDCMP
+#
+$CMP MCP2515-I/SO
+D Stand-Alone CAN Controller with SPI Interface
+$ENDCMP
+#
+$CMP TLC5947
+D 24-Channel, 12-Bit PWM LED Driver With Internal Oscillator
+$ENDCMP
+#
+#End Doc Library
