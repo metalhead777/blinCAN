@@ -45,6 +45,7 @@ A 24 channel LED driver module with CAN bus interface and Arduino-style microcon
 - Increase number of hardware address bits
 - Change LED output voltage to board input voltage instead of fix 5 V
 - Add polyfuse for input overcurrent protection
+- Add additional mounting points for Raspberry Pi (host system)
 
 
 ## Open source hardware and software used in this project
