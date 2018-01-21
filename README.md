@@ -101,5 +101,7 @@ Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 ## License information
 
 This project is open source and licensed under [Creative Commons Attribution Share Alike 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
-Please refer to License.md for the full legal text. 
-Thanks to [idleberg in GitHub](https://github.com/idleberg/Creative-Commons-Markdown) for the Markdown format. 
+
+Please refer to [License.md](License.md) for the full legal text. 
+
+Thanks to [idleberg on GitHub](https://github.com/idleberg/Creative-Commons-Markdown) for the Markdown format. 
