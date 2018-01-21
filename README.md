@@ -20,7 +20,7 @@ This way, every LED on the dome's shell was distinctly addressable in 3D space.
 An underlying look-up-table in the host's software was used to map each pattern lighting point to an LED. 
 
 ### Current stage of development
-Currently the blinCAN is in early development state in version 1.0. 
+Currently the blinCAN is in early development state in version 0.1. 
 This means, that the hardware is tested and working on a small prototype scale production. 
 Long-term testing (temperature, vibration, EMI) has not been performed yet. 
 In this state the blinCAN is fit to be used for embedded systems and small-scale lighting projects. 
