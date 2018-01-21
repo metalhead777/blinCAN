@@ -1,9 +1,9 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.7)
 
   (general
-    (links 0)
+    (links 270)
     (no_connects 1)
-    (area 31.700399 46.406999 158.952001 113.663801)
+    (area 12.7 25.4 247.650001 147.828001)
     (thickness 1.6)
     (drawings 58)
     (tracks 816)
@@ -15,7 +15,7 @@
   (page A4)
   (title_block
     (title blinCAN)
-    (date 2017-11-01)
+    (date 2018-01-21)
     (rev 0.1)
     (company https://github.com/metalhead777/blinCAN)
   )

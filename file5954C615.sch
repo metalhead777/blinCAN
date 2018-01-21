@@ -36,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 6
 Title "blinCAN TLC5947 LED Driver"
-Date "2017-11-01"
+Date "2018-01-21"
 Rev "0.1"
 Comp "https://github.com/metalhead777/blinCAN"
 Comment1 ""

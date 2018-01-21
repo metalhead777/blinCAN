@@ -36,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 6
 Title "blinCAN USB to Serial Interface"
-Date "2017-11-01"
+Date "2018-01-21"
 Rev "0.1"
 Comp "https://github.com/metalhead777/blinCAN"
 Comment1 ""
@@ -69,7 +69,7 @@ $Comp
 L LED_Small D402
 U 1 1 595458BD
 P 7250 3850
-F 0 "D402" H 7200 3975 50  0000 L CNN
+F 0 "D402" H 7300 3950 50  0000 L CNN
 F 1 "LED Red" H 7075 3750 50  0000 L CNN
 F 2 "LEDs:LED_0603" V 7250 3850 50  0001 C CNN
 F 3 "" V 7250 3850 50  0000 C CNN
@@ -80,7 +80,7 @@ $Comp
 L LED_Small D403
 U 1 1 5954591A
 P 7600 3850
-F 0 "D403" H 7550 3975 50  0000 L CNN
+F 0 "D403" H 7650 3950 50  0000 L CNN
 F 1 "LED Green" H 7425 3750 50  0000 L CNN
 F 2 "LEDs:LED_0603" V 7600 3850 50  0001 C CNN
 F 3 "" V 7600 3850 50  0000 C CNN
@@ -241,7 +241,7 @@ Wire Wire Line
 	4600 3500 4900 3500
 Text Notes 7450 4000 0    60   ~ 0
 "TX"
-Text Notes 7000 3800 0    60   ~ 0
+Text Notes 7050 4000 0    60   ~ 0
 "RX"
 NoConn ~ 6400 4250
 NoConn ~ 6400 4350

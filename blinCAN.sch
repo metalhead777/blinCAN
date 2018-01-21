@@ -36,7 +36,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 6
 Title "blinCAN"
-Date "2017-11-01"
+Date "2018-01-21"
 Rev "0.1"
 Comp "https://github.com/metalhead777/blinCAN"
 Comment1 ""

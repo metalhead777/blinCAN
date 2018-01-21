@@ -36,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 6
 Title "blinCAN Microcontroller"
-Date "2017-11-01"
+Date "2018-01-21"
 Rev "0.1"
 Comp "https://github.com/metalhead777/blinCAN"
 Comment1 ""
