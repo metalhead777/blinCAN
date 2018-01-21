@@ -73,13 +73,21 @@ A few prototypes have been built and successfully tested prior to releasing this
 
 ### KiCAD
 
+[KiCAD website](http://kicad-pcb.org/)
+Licensed under [GPL Version 3](https://www.gnu.org/licenses/gpl-3.0.html)
 
 ### Arduino nano Rev. 3
 
+[Arduino website][https://www.arduino.cc/]
+[Arduino nano Rev. 3 schematic](https://arduino.cc/en/uploads/Main/Arduino_Nano-Rev3.2-SCH.pdf)
+Licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
 
 ### Arduino SparkFun CAN-Bus Shield Rev. 13
 
-
+[SparkFun website](https://www.sparkfun.com/)
+[SparkFun CAN-Bus Shield on GitHub](https://github.com/sparkfun/CAN-Bus_Shield/tree/V_H1.3_L5.0.0)
+[SparkFun CAN-Bus Shield Rev. 13 schematic](http://cdn.sparkfun.com/datasheets/Dev/Arduino/Shields/SparkFun_CAN-Bus_Shield_v13a.pdf)
+Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ## Active contributors to this project
 
@@ -89,3 +97,7 @@ A few prototypes have been built and successfully tested prior to releasing this
 
 ### Library programmers
 
+
+## License information
+
+This project is open source and licensed under [Creative Commons Attribution Share Alike 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
