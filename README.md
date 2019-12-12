@@ -1,6 +1,11 @@
 # blinCAN
 A 24 channel LED driver module with CAN bus interface and Arduino-compatible microcontroller. 
 
+![blinCAN v0.1 2018 top](https://raw.githubusercontent.com/metalhead777/blinCAN/master/blinCAN_v0_1_2018_top.png)
+*blinCAN v0.1 2018 top*
+
+![blinCAN v0.1 2018 bottom](https://raw.githubusercontent.com/metalhead777/blinCAN/master/blinCAN_v0_1_2018_bottom.png)
+*blinCAN v0.1 2018 bottom*
 
 ## Function description
 
