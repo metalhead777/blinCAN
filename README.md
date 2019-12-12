@@ -61,6 +61,7 @@ A few prototypes have been built and successfully tested prior to releasing this
 - The TLC5947 has a thermal pad, which makes it the only component not solderable by purely using a soldering iron. Using a heatgun to heat the pad from the bottom side, applying solder and then placing the TLC5947 onto it has been done successfully for the prototypes.
 
 ## Planned future changes and improvements
+- Add Bill of Materials (BOM) for all non-KiCAD users
 - Clean up trace routing around TLC5947
 - Increase number of hardware address bits
 - Change LED output voltage to board input voltage instead of fix 5 V
@@ -73,21 +74,21 @@ A few prototypes have been built and successfully tested prior to releasing this
 
 ### KiCAD
 
-[KiCAD website](http://kicad-pcb.org/)
-Licensed under [GPL Version 3](https://www.gnu.org/licenses/gpl-3.0.html)
+- [KiCAD website](http://kicad-pcb.org/)
+- Licensed under [GPL Version 3](https://www.gnu.org/licenses/gpl-3.0.html)
 
 ### Arduino nano Rev. 3
 
-[Arduino website][https://www.arduino.cc/]
-[Arduino nano Rev. 3 schematic](https://arduino.cc/en/uploads/Main/Arduino_Nano-Rev3.2-SCH.pdf)
-Licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
+- [Arduino website](https://www.arduino.cc/)
+- [Arduino nano Rev. 3 schematic](https://arduino.cc/en/uploads/Main/Arduino_Nano-Rev3.2-SCH.pdf)
+- Licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
 
 ### Arduino SparkFun CAN-Bus Shield Rev. 13
 
-[SparkFun website](https://www.sparkfun.com/)
-[SparkFun CAN-Bus Shield on GitHub](https://github.com/sparkfun/CAN-Bus_Shield/tree/V_H1.3_L5.0.0)
-[SparkFun CAN-Bus Shield Rev. 13 schematic](http://cdn.sparkfun.com/datasheets/Dev/Arduino/Shields/SparkFun_CAN-Bus_Shield_v13a.pdf)
-Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+- [SparkFun website](https://www.sparkfun.com/)
+- [SparkFun CAN-Bus Shield on GitHub](https://github.com/sparkfun/CAN-Bus_Shield/tree/V_H1.3_L5.0.0)
+- [SparkFun CAN-Bus Shield Rev. 13 schematic](http://cdn.sparkfun.com/datasheets/Dev/Arduino/Shields/SparkFun_CAN-Bus_Shield_v13a.pdf)
+- Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ## Active contributors to this project
 
