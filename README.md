@@ -42,6 +42,28 @@ A few prototypes have been built and successfully tested prior to releasing this
 
 ### Device programming
 
+After assembly, the device can only be programmed using an ICSP in-circuit-programmer.
+The connector with the reference **P103** serves as ICSP header.
+The square pad is ICSP Pin 1 (MISO).
+
+![P103 ICSP header pin connection](https://raw.githubusercontent.com/metalhead777/blinCAN/master/blinCAN_v0_1_2018_ICSP_header_top.png)
+
+*P103 ICSP header pin connection*
+
+The blinCAN firmware can be flashed directly to the ATmega328P-AU using an In-Series Programmer (ISP).
+The reset-button needs to be pressed during microcontroller flashing
+
+For editing the blinCAN firmware or testing any other Arduino-compatible code, the Arduino bootlader needs to be flashed first to the ATmega328P-AU used for the blinCAN.
+A tutorial on flashing the Arduino bootloader can be found [here](https://www.arduino.cc/en/tutorial/arduinoISP).
+Use the following settings under "Tools" in the Arduino IDE, if you use another Arduino as a flashing device (ISP):
+
+| Parameter | Value          |
+| --------- |:--------------:|
+| Board     | "Arduino Nano" |
+| Processor | "ATmega328P"   |
+
+After flashing the Arduino bootloader, any further programming can be done using the USB type B connector (**P104**) on the blinCAN.
+
 #### Windows
 
 #### Linux
