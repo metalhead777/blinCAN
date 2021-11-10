@@ -101,7 +101,7 @@ After flashing the Arduino bootloader, any further programming can be done using
 
 ### KiCAD
 
-- [KiCAD website](http://kicad-pcb.org/)
+- [KiCAD website](http://kicad.org/)
 - Licensed under [GPL Version 3](https://www.gnu.org/licenses/gpl-3.0.html)
 
 ### Arduino nano Rev. 3
